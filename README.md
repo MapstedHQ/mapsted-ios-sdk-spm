@@ -28,7 +28,8 @@ Each module is a **universal XCFramework** (device + simulator in one) — no se
 ## Documentation
 
 - Getting started (iOS) — https://developer.mapsted.com/mobile-sdk/getting-started/ios-getting-started/
-- Release notes — https://developer.mapsted.com/mobile-sdk/release-notes/#v2661
+- Release notes — https://developer.mapsted.com/mobile-sdk/release-notes/#v2671
+- Migration guide (6.2.x → 26.7.1) — https://developer.mapsted.com/mobile-sdk/migration/migration_guide_to_26.7.1/
 - API reference — https://developer.mapsted.com/mobile-sdk/api-reference/documentation/mapstedcore/
 
 © Mapsted Corp.
