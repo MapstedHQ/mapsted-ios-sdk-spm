@@ -14,7 +14,7 @@ In Xcode: **File → Add Package Dependencies…**, enter:
 https://github.com/MapstedHQ/mapsted-ios-sdk-spm
 ```
 
-Rule: **Up to Next Major Version** from **26.7.1**. Add the products you need:
+Rule: **Exact Version** **26.7.2**. Add the products you need:
 
 - **MapstedMapUi** — maps + prebuilt map UI (most apps)
 - **MapstedCore** — positioning only
@@ -23,7 +23,7 @@ Rule: **Up to Next Major Version** from **26.7.1**. Add the products you need:
 
 Each module is a **universal XCFramework** (device + simulator in one) — no separate simulator setup.
 
-**Current version: `26.7.1`** · Requirements: Xcode 26.3, iOS 16.0+.
+**Current version: `26.7.2`** · Requirements: Xcode 26.3, iOS 16.0+.
 
 ## Documentation
 

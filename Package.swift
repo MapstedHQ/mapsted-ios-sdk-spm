@@ -1,5 +1,8 @@
 // swift-tools-version:5.9
-// Mapsted iOS SDK 26.7.1 — SwiftPM manifest (hosted binaryTargets on MapstedHQ/mapsted-ios-sdk Release 26.7.1).
+// Mapsted iOS SDK 26.7.2 — SwiftPM manifest (hosted binaryTargets on MapstedHQ/mapsted-ios-sdk Release 26.7.2)
+// MapSDK / SDWebImage / SSZipArchive stay on their 26.7.1 URLs: those binaries are byte-identical
+// in 26.7.2 (CocoaPods resolves the same mapsted-sdk-core-map 4.4.6.2), so re-hosting them under a
+// new version number would imply a change that did not happen..
 // LAUNCH-SAFE: SDWebImage/SSZipArchive vendored as dynamic binaryTargets (correct @rpath install-names).
 // Docs: https://developer.mapsted.com/mobile-sdk/getting-started/ios-getting-started/
 import PackageDescription
@@ -31,58 +34,58 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MapstedCore",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedCore.xcframework.zip",
-            checksum: "c87475687d1ddb4182818c1ed268377853f780a1747a6e1aaec6c9d828d58e92"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedCore.xcframework.zip",
+            checksum: "44e14700655c0af1b42c7a1d4e9f5e6ddc1d88bcd26056a770d36ff3e8097afd"
         ),
         .binaryTarget(
             name: "MapstedTriggersCore",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedTriggersCore.xcframework.zip",
-            checksum: "4334ad989dae7f4962270e91a7f5cae8895cb985f364564efb87c5bf800c8b89"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedTriggersCore.xcframework.zip",
+            checksum: "c5bfd17bdc4a096c63a11f744afd64d47c5df91f4b0eeb14335ab70a8f65d96c"
         ),
         .binaryTarget(
             name: "MapstedComponentsCore",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedComponentsCore.xcframework.zip",
-            checksum: "d54bd6b8ec5ca01796bff8c85f9999b74dbf32bd8a1ca7bf790ed65fabaea395"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedComponentsCore.xcframework.zip",
+            checksum: "06b375355f48bf944f1163fde476249e5f0ed75519edc53096a280018bb9a308"
         ),
         .binaryTarget(
             name: "LocationMarketing",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/LocationMarketing.xcframework.zip",
-            checksum: "e3b19b30cf7a28f3a776c6374c24b9c68bcaeb269bb9a0c87547f48955efac79"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/LocationMarketing.xcframework.zip",
+            checksum: "3959d4fec4c01c88b1642c8e049cc77313174800ce760b6ae611b55f412fb4e0"
         ),
         .binaryTarget(
             name: "MapstedAlerts",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedAlerts.xcframework.zip",
-            checksum: "ab37b38954a465892cfceeedbfb2972ee120164af7a431ede3cc33785536b05a"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedAlerts.xcframework.zip",
+            checksum: "701441e5a15d1fea093a225b2fffc4b4d4a4d90b90b8e26536e978da6705674e"
         ),
         .binaryTarget(
             name: "MapstedLocationShare",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedLocationShare.xcframework.zip",
-            checksum: "30b172e62a5086bc20e91fe87ecff83e10b033cc3472b3aa3caf78a38d3a4d2e"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedLocationShare.xcframework.zip",
+            checksum: "861db11b9fa97f39354efb3601038f8a0af8a66fc49f518553f4642bb7dedc75"
         ),
         .binaryTarget(
             name: "MapstedTopBarNotification",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedTopBarNotification.xcframework.zip",
-            checksum: "e315abe0c41f702e76eeff6ca55f8d9ca0776e76f16b49fbe901972fc369a418"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedTopBarNotification.xcframework.zip",
+            checksum: "41735a9f6509f1ef3ec47011acdbb000f37ddccddfe61131bbb224d9bc8f38ed"
         ),
         .binaryTarget(
             name: "MapstedComponentsUI",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedComponentsUI.xcframework.zip",
-            checksum: "d2110f484c7f3516d22ad91aeb595a70dcd162e36e2615a6a896c0040a8f1baf"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedComponentsUI.xcframework.zip",
+            checksum: "b8086e6065d48b1169cb239588acc30e5ea44130eb32e57df9b55383bf5e4c94"
         ),
         .binaryTarget(
             name: "MapstedMap",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedMap.xcframework.zip",
-            checksum: "bcb0ed5d30dc3dd5e69300143445b4b40f6f29d9893c6692c20691a55db68e63"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedMap.xcframework.zip",
+            checksum: "403f55d200c69216574304b3655fdbebe603a6912d6c4403f42e75a8adbad09e"
         ),
         .binaryTarget(
             name: "MapstedMapUi",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/MapstedMapUi.xcframework.zip",
-            checksum: "f32dd33db4ee299d7ed795f554b392ac9af5d1fae5fed0cbf791d5057bf34a9b"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/MapstedMapUi.xcframework.zip",
+            checksum: "eb3c0b890305e3a63514845e3c986e76bbccd204737e9440f705a382ecc753c1"
         ),
         .binaryTarget(
             name: "AppTemplate",
-            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.1/AppTemplate.xcframework.zip",
-            checksum: "4efd4d30edfc674ecceee2e4d45488a7a7e241b645e1ec37adc57dc868b19b9f"
+            url: "https://github.com/MapstedHQ/mapsted-ios-sdk/releases/download/26.7.2/AppTemplate.xcframework.zip",
+            checksum: "414b3892b700961b6a3ff03fc62e6673d8a0a3cbbe3c40c453626f44f0206b21"
         ),
         .binaryTarget(
             name: "MapSDK",
