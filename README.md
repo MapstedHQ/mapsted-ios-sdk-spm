@@ -23,12 +23,12 @@ Rule: **Exact Version** **26.10.4**. Add the products you need:
 
 Each module is a **universal XCFramework** (device + simulator in one) — no separate simulator setup.
 
-**Current version: `26.10.4`** · Requirements: Xcode 26.3, iOS 16.0+.
+**Current version: `26.10.4`** · Requirements: Xcode 26.3 or Xcode 27, iOS 16.0+.
 
 ## Documentation
 
 - Getting started (iOS) — https://developer.mapsted.com/mobile-sdk/getting-started/ios-getting-started/
-- Release notes — https://developer.mapsted.com/mobile-sdk/release-notes/#v26102
+- Release notes — https://developer.mapsted.com/mobile-sdk/release-notes/#v26104
 - Migration guide (6.2.x → 26.7.1) — https://developer.mapsted.com/mobile-sdk/migration/migration_guide_to_26.7.1/
 - API reference — https://developer.mapsted.com/mobile-sdk/api-reference/documentation/mapstedcore/
 
