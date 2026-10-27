@@ -1,8 +1,7 @@
 // swift-tools-version:5.9
-// Mapsted iOS SDK 26.10.2 — SwiftPM manifest (hosted binaryTargets on MapstedHQ/mapsted-ios-sdk Release 26.10.2)
-// MapSDK / SDWebImage / SSZipArchive stay on their 26.7.1 URLs: MapSDK is byte-identical in 26.10.2
-// (CocoaPods 26.10.2 still resolves mapsted-sdk-core-map 4.4.6.2), and the 26.7.1-hosted SDWebImage /
-// SSZipArchive binaries provide every symbol 26.10.2 needs, so they are not re-hosted under a new version.
+// Mapsted iOS SDK 26.10.4 — SwiftPM manifest (hosted binaryTargets on MapstedHQ/mapsted-ios-sdk Release 26.10.4)
+// MapSDK / SDWebImage / SSZipArchive stay on their 26.7.1 URLs: they are unchanged since 26.7.1
+// (CocoaPods 26.10.4 still resolves mapsted-sdk-core-map 4.4.6.2), so they are not re-hosted under a new version.
 // LAUNCH-SAFE: SDWebImage/SSZipArchive vendored as dynamic binaryTargets (correct @rpath install-names).
 // Docs: https://developer.mapsted.com/mobile-sdk/getting-started/ios-getting-started/
 import PackageDescription
